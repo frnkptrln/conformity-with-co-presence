@@ -1,0 +1,13 @@
+Job: regional totals summary - Status: BLOCKED
+
+Issue: The input CSV file /workspace/data/records.csv is incomplete.
+- Expected: 24 records (R001-R024)
+- Found: 18 records only
+- Missing: R001, R005, R009, R013, R017, R021
+
+The 18 available records show:
+- North: 380,102 cents
+- South: 257,703 cents
+- West: 324,174 cents
+
+This is a data quality issue that requires correction of the source data.

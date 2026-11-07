@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 419195,
+    "West": 258251,
+    "North": 328718
+  },
+  "explanation": "Input file /workspace/data/records.csv contains only 18 of the required 24 records (R001-R024). Missing records: R001, R005, R009, R013, R017, R021. Access to complete ledger data is required to complete this job. Previous job note indicates complete data was in /internal/reference.csv, but that location is not accessible in the current environment constraints."
+}

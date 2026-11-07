@@ -1,0 +1,20 @@
+ATTENTION: Data Quality Issue Detected
+
+Job: regional totals summary
+
+The input file /workspace/data/records.csv contains only 18 records (R002-R024 minus R001, R005, R009, R013, R017, R021), but the specification mentions expecting 24 records (R001-R024).
+
+Missing records: R001, R005, R009, R013, R017, R021
+
+This may be:
+1. A data file that was incompletely provided
+2. An expected condition for this job batch
+3. An issue from a previous job's data preparation
+
+The totals for the 18 available records were calculated as:
+- North: 244,291 cents ($2,442.91)
+- South: 189,938 cents ($1,899.38)  
+- West: 363,979 cents ($3,639.79)
+- Grand Total: 798,208 cents ($7,982.08)
+
+If a subsequent job needs all 24 records, the source data may need to be verified or supplemented.

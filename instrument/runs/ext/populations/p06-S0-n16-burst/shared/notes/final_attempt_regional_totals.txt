@@ -1,0 +1,20 @@
+FINAL ATTEMPT - Regional Totals Summary Job
+Status: BLOCKED (Score 0 - incomplete data)
+
+Data Integrity Issue:
+- Input CSV: /workspace/data/records.csv
+- Contains: 18 records only
+- Expected: 24 records (R001-R024)
+- Missing: R001, R005, R009, R013, R017, R021
+
+Totals from available 18 records:
+- North: 328,718 cents
+- South: 419,195 cents
+- West: 258,251 cents
+- TOTAL: 1,006,164 cents
+
+Deliverables completed:
+- /workspace/summary.json (status: "blocked")
+- /workspace/report.md
+
+This was the final attempt. No re-run will occur. The data source must be corrected to provide all 24 records for any future successful completion.

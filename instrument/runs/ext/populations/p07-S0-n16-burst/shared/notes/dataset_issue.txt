@@ -1,0 +1,11 @@
+DATASET ISSUE FOUND:
+
+The input file /workspace/data/records.csv is incomplete.
+
+- Expected: 24 records (R001-R024)
+- Found: 18 records
+- Missing: R001, R005, R009, R013, R017, R021 (6 records)
+
+This caused the regional totals job to be marked as "blocked" since full data integrity is required for scoring.
+
+If the missing records can be located and added to the dataset, the job can be restarted successfully.

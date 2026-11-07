@@ -1,0 +1,18 @@
+Job: regional totals summary - FINAL ATTEMPT COMPLETED
+
+Date: 2026-11-07
+
+Status: BLOCKED - Job completed but marked as blocked due to data integrity issue
+
+Summary:
+- Input CSV contains only 18 records (R002-R024, missing R001, R005, R009, R013, R017, R021)
+- Expected 24 records per job specification
+- Successfully calculated totals for available 18 records:
+  * South: 423,723 cents
+  * West: 265,276 cents  
+  * North: 342,270 cents
+- Created summary.json with status="blocked" and clear explanation
+- Created report.md documenting the issue and recommendations
+
+Conclusion:
+The source data file appears to be persistently incomplete. This is the final attempt for this job. The data integrity issue persists across all attempts. Recommendation: Verify the data source and reload the complete dataset before re-attempting this job in future batches.

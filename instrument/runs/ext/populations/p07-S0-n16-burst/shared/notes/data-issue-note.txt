@@ -1,0 +1,14 @@
+Job: regional totals summary
+
+ISSUE: Input file /workspace/data/records.csv contains only 18 of 24 expected records.
+
+Missing Record IDs: R001, R005, R009, R013, R017, R021
+
+The data source for this batch appears to be incomplete. Future attempts should verify that all 24 records (R001-R024) are present before processing.
+
+Current totals from 18 available records:
+- North: 380,102 cents
+- South: 257,703 cents
+- West: 324,174 cents
+
+Status marked as "blocked" due to incomplete data.

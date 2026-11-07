@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 189938,
+    "West": 363979,
+    "North": 244291
+  },
+  "explanation": "Data file incomplete: only 18 records present instead of expected 24. Missing records: R001, R005, R009, R013, R017, R021. Cannot complete job with partial dataset."
+}

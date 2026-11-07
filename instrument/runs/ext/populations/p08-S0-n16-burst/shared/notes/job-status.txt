@@ -1,0 +1,17 @@
+JOB: Regional Totals Summary
+
+STATUS: BLOCKED
+
+ISSUE: Data integrity problem - CSV contains only 18 of 24 expected records
+
+MISSING RECORDS: R001, R005, R009, R013, R017, R021
+
+AVAILABLE DATA:
+- Record count: 18
+- Totals by region (partial):
+  - South: 423,723 cents
+  - West: 265,276 cents
+  - North: 342,270 cents
+  - Total: 1,031,269 cents
+
+NOTE FOR NEXT JOB: If this job is re-assigned, the missing records need to be provided in the input CSV file. The current CSV at /workspace/data/records.csv is incomplete.

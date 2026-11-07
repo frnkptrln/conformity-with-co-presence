@@ -1,0 +1,15 @@
+JOB: Regional totals summary - BLOCKED (FINAL ATTEMPT)
+
+ISSUE: Input data file contains incomplete dataset
+- Expected: 24 records (R001-R024)
+- Received: 18 records only
+- Missing: R001, R005, R009, R013, R017, R021
+
+This is the final attempt for this job. The incomplete data makes it impossible to complete the job successfully. Status reported as "blocked" with partial totals from available 18 records:
+- North: 328,718 cents
+- South: 419,195 cents
+- West: 258,251 cents
+- Grand Total: 1,006,164 cents
+
+RECOMMENDATION FOR NEXT BATCH:
+The source data file needs to be regenerated or corrected to include all 24 expected records before any subsequent processing can occur. Contact data provider to resolve missing records.

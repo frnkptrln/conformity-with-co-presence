@@ -1,0 +1,12 @@
+Data Quality Alert - Regional Totals Summary Job
+
+The /workspace/data/records.csv file is INCOMPLETE.
+
+Expected: 24 records (R001-R024)
+Actual: 18 records found
+
+Missing records: R001, R005, R009, R013, R017, R021
+
+This caused the regional totals job to be reported as "blocked". 
+
+The data source should be verified for completeness before any further processing.

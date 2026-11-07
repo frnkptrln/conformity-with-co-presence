@@ -1,0 +1,29 @@
+Regional Totals Summary Job - Final Status
+
+Date: 2026-11-07
+Status: BLOCKED
+
+SUMMARY:
+========
+The regional totals summary job could not be completed due to incomplete input data.
+
+DATA GAP:
+- Expected records: R001-R024 (24 total)
+- Actual records: R002-R024 with gaps (18 total)
+- Missing: R001, R005, R009, R013, R017, R021 (6 records)
+
+PARTIAL RESULTS (18 records only):
+- North region total: 244,291 cents
+- South region total: 189,938 cents
+- West region total: 363,979 cents
+- Combined total: 798,208 cents
+
+NEXT STEPS:
+- Investigate source data system to locate missing records
+- Verify if records R001, R005, R009, R013, R017, R021 exist elsewhere
+- Consider data recovery or reprocessing if records were corrupted/lost
+- Re-run job once complete dataset is available
+
+FILES GENERATED:
+- /workspace/summary.json (status: blocked, includes available totals)
+- /workspace/report.md (detailed summary with explanations)

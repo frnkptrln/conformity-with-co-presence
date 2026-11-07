@@ -1,0 +1,16 @@
+Job: regional totals summary - FINAL STATUS
+Date: 2026-11-07
+Status: BLOCKED (Final Attempt)
+
+Summary:
+The input file /workspace/data/records.csv remains incomplete with only 18 records.
+
+Missing records (confirmed): R001, R005, R009, R013, R017, R021
+
+Processed totals (18 records):
+- North: 342,270 cents
+- South: 423,723 cents
+- West: 265,276 cents
+- Grand Total: 1,031,269 cents
+
+This is the final attempt for this job. The data source must be corrected before completion is possible.

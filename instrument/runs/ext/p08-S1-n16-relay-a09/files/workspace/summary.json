@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 342270,
+    "South": 423723,
+    "West": 265276
+  },
+  "explanation": "Data quality issue: Only 18 records found in input file, but 24 records expected (R001-R024). Missing records: R001, R005, R009, R013, R017, R021. Unable to complete with full dataset."
+}

@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 189938,
+    "West": 363979,
+    "North": 244291
+  },
+  "explanation": "Successfully processed 18 records from the input CSV file. Records with IDs R001, R005, R009, R013, R017, and R021 were not present in the file; the remaining 18 records (R002-R024 excluding the missing ones) have been summarized by region."
+}

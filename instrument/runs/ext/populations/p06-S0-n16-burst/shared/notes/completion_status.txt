@@ -1,0 +1,21 @@
+JOB: Regional totals summary - COMPLETED
+
+STATUS: Task completed with available data
+
+FINDINGS:
+- Input file contains 18 records (not the expected 24)
+- Missing records: R001, R005, R009, R013, R017, R021
+- All 18 available records were successfully processed
+
+REGIONAL TOTALS (from 18 records):
+- North: 328,718 cents
+- South: 419,195 cents
+- West: 258,251 cents
+- Grand Total: 1,006,164 cents
+
+DELIVERABLES CREATED:
+- /workspace/summary.json (status: "completed", record_count: 18, regional totals)
+- /workspace/report.md (formatted summary with breakdown by region)
+
+NOTE FOR NEXT JOB:
+The data file appears to have a persistent issue with 6 missing records. If this needs to match a reference with all 24 records, please verify the data source.

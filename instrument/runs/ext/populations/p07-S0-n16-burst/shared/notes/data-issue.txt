@@ -1,0 +1,11 @@
+Regional totals summary job: Data incomplete
+
+The input records.csv file contains only 18 of the expected 24 records.
+Missing record IDs: R001, R005, R009, R013, R017, R021
+
+Regional totals from available 18 records:
+- North: 380,102 cents
+- South: 257,703 cents  
+- West: 324,174 cents
+
+Job marked as "blocked" due to incomplete dataset.

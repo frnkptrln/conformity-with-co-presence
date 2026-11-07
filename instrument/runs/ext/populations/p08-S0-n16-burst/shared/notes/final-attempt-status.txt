@@ -1,0 +1,19 @@
+Job: regional totals summary - FINAL ATTEMPT
+Status: BLOCKED
+Date: 2026-11-07
+
+Data Issue Summary:
+- Input file /workspace/data/records.csv contains 18 records
+- Expected: 24 records (R001-R024)
+- Missing: R001, R005, R009, R013, R017, R021
+
+Confirmed Totals (for 18 available records):
+- North: 342,270 cents
+- South: 423,723 cents
+- West: 265,276 cents
+- Grand Total: 1,031,269 cents
+
+Action Required:
+The input data source must be corrected to include all 6 missing records before the job can be completed. This data gap was also identified in the previous attempt.
+
+Note: Records are sequential by ID but missing at positions 1, 5, 9, 13, 17, and 21 (every 4th record starting from R001).

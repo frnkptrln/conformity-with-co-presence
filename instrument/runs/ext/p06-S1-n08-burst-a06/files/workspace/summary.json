@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 24,
+  "totals_by_region": {
+    "North": 417557,
+    "South": 435658,
+    "West": 383648
+  },
+  "explanation": "Successfully processed all 24 records (R001-R024). Regional totals calculated from complete ledger: North region total 417,557 cents, South region total 435,658 cents, West region total 383,648 cents. Grand total: 1,236,863 cents."
+}

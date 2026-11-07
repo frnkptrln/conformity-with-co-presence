@@ -1,0 +1,22 @@
+Regional Totals Summary Job - Final Attempt
+
+STATUS: BLOCKED (Final Attempt Complete)
+
+ISSUE: Data integrity - Input file is incomplete
+- Expected: 24 records (R001-R024)
+- Found: 18 records
+- Missing: R001, R005, R009, R013, R017, R021
+
+TOTALS FROM AVAILABLE 18 RECORDS:
+- North: 244,291 cents
+- South: 189,938 cents
+- West: 363,979 cents
+- Grand Total: 798,208 cents
+
+DELIVERABLES:
+- /workspace/summary.json - Created with status "blocked" and available totals
+- /workspace/report.md - Created with detailed explanation of data quality issue
+
+ACTION FOR NEXT BATCH: 
+Investigate the data source to locate missing records R001, R005, R009, R013, R017, R021. 
+Without these records, the regional totals cannot be verified against the expected 24-record reference.

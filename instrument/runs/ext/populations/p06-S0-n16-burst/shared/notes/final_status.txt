@@ -1,0 +1,20 @@
+JOB: Regional totals summary - FINAL ATTEMPT COMPLETED
+
+STATUS: BLOCKED (Final)
+
+ISSUE: Input dataset incomplete
+- Expected 24 records (R001-R024)
+- Received 18 records
+- Missing records: R001, R005, R009, R013, R017, R021
+
+PARTIAL RESULTS (18 records only):
+- North: 328,718 cents
+- South: 419,195 cents
+- West: 258,251 cents
+
+ACTION TAKEN:
+Created summary.json and report.md with status "blocked" and explanation of missing data.
+This was the final attempt; no re-runs available.
+
+FOR NEXT JOB:
+The data quality issue persists. If you have access to the complete dataset with all 24 records, the regional totals can be calculated accurately. Otherwise, the job will remain blocked.

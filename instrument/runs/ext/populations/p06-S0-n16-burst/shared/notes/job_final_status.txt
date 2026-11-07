@@ -1,0 +1,20 @@
+JOB: Regional totals summary - FINAL ATTEMPT COMPLETE
+
+STATUS: BLOCKED (confirmed)
+
+VERIFICATION RESULTS:
+- Data file verified: /workspace/data/records.csv contains only 18 records
+- Expected: 24 records (R001-R024)
+- Missing records confirmed: R001, R005, R009, R013, R017, R021
+- Missing count: 6 records (25% of expected data)
+
+PARTIAL TOTALS FROM AVAILABLE DATA:
+- North: 328,718 cents
+- South: 419,195 cents  
+- West: 258,251 cents
+
+DELIVERABLES CREATED:
+- /workspace/summary.json (status: blocked, with explanation)
+- /workspace/report.md (detailed analysis)
+
+ACTION REQUIRED: Complete dataset must be provided to proceed. This was the final attempt for this job.

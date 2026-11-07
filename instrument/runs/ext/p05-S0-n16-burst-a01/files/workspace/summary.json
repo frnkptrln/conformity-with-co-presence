@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 244291,
+    "South": 189938,
+    "West": 363979
+  },
+  "explanation": "Data integrity issue: Only 18 records found in input file instead of 24 expected (R001-R024). Missing records: R001, R005, R009, R013, R017, R021. Unable to complete job with incomplete dataset. Totals calculated from available records only."
+}

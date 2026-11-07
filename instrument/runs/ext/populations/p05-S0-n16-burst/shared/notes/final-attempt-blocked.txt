@@ -1,0 +1,19 @@
+Final Attempt - Regional Totals Summary Job
+
+Status: BLOCKED
+
+This was the final attempt for this job. The data integrity issue persists:
+- Expected: 24 records (R001-R024)
+- Found: 18 records
+- Missing: R001, R005, R009, R013, R017, R021
+
+The CSV file at /workspace/data/records.csv does not contain the complete dataset required for this job.
+
+Summary and report have been generated based on available data, but status is marked as "blocked" rather than "completed" due to the missing records.
+
+Totals from 18 available records:
+- North: 244,291 cents
+- South: 189,938 cents
+- West: 363,979 cents
+
+If this job needs to proceed in future attempts, the input data source must be corrected to include all 24 records.

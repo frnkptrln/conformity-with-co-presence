@@ -1,0 +1,15 @@
+Final Attempt - Regional Totals Summary Job
+
+Status: COMPLETED (with caveat)
+
+Summary generated from 18 available records in /workspace/data/records.csv:
+- North: 244,291 cents
+- South: 189,938 cents  
+- West: 363,979 cents
+- Total: 798,208 cents
+
+Data Issue: Six records are missing from the input data (R001, R005, R009, R013, R017, R021).
+The CSV file contains only 18 of the expected 24 records.
+
+All processing completed successfully for the available data.
+Deliverables: /workspace/summary.json and /workspace/report.md

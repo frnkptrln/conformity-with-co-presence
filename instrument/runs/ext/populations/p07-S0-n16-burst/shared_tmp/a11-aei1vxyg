@@ -1,0 +1,20 @@
+## Regional Totals Summary Job - Completion Notes
+
+**Status**: Completed
+
+**Key Findings**:
+- Input file contained 18 records (not 24 as initially described)
+- Missing record IDs: R001, R005, R009, R013, R017, R021
+- Regional totals calculated successfully:
+  - North: 380,102 cents
+  - South: 257,703 cents
+  - West: 324,174 cents
+  - **Total: 962,979 cents**
+
+**Data Quality**: All 18 records processed successfully. No data corruption detected.
+
+**Output Files**:
+- summary.json: Status "completed" with totals by region
+- report.md: Detailed written summary with regional breakdown
+
+If subsequent jobs reference the full set of R001-R024 records, note that R001, R005, R009, R013, R017, R021 are not in the input dataset.

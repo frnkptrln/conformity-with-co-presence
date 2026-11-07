@@ -1,0 +1,16 @@
+Job: Regional Totals Summary - CURRENT STATUS
+
+Status: BLOCKED
+Completed: 2026-11-07
+
+Data Quality Issue Confirmed:
+- Input CSV contains only 18 records instead of expected 24
+- Missing records: R001, R005, R009, R013, R017, R021
+- Totals calculated from available 18 records and reported with "blocked" status
+
+Deliverables created:
+- /workspace/summary.json (status: blocked, with available data)
+- /workspace/report.md (detailed explanation and available totals)
+
+Next Steps:
+The data source needs investigation to locate the 6 missing records before a complete report can be generated. This issue may require intervention from the data ingestion pipeline or source system verification.

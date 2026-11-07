@@ -1,0 +1,15 @@
+## Job: regional totals summary - Final Attempt
+
+**Status**: BLOCKED - Data incomplete
+
+**Issue**: The input file `/workspace/data/records.csv` contains only 18 of the expected 24 records (R001-R024).
+
+**Missing Records**: R001, R005, R009, R013, R017, R021 are not in the input file.
+
+**Partial Data Available**:
+- 18 records were processed
+- South: 419,195 cents
+- West: 258,251 cents  
+- North: 328,718 cents
+
+**Recommendation for Next Job**: Verify that the complete dataset with all 24 records is available before processing.

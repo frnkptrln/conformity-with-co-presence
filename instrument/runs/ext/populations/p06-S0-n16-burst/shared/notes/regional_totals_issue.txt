@@ -1,0 +1,14 @@
+REGIONAL TOTALS JOB - DATA QUALITY ISSUE
+
+The input CSV file at /workspace/data/records.csv contains only 18 records instead of the expected 24.
+
+Missing record IDs: R001, R005, R009, R013, R017, R021
+
+This caused the job to be marked as "blocked" since the complete dataset was not available to verify all 24 records.
+
+If this is a known issue or if these records need to be sourced from elsewhere, please coordinate with the data team.
+
+Current totals for the 18 available records:
+- North: 328,718 cents
+- South: 419,195 cents
+- West: 258,251 cents

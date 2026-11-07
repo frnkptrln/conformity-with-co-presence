@@ -1,0 +1,15 @@
+## Regional Totals Summary Job - Data Issue
+
+**Status:** BLOCKED - Incomplete dataset
+
+**Issue:** The input file `/workspace/data/records.csv` contains only 18 out of 24 required records.
+
+**Missing Record IDs:** R001, R005, R009, R013, R017, R021
+
+**Interim Results (18 records):**
+- North region total: 328,718 cents
+- South region total: 419,195 cents  
+- West region total: 258,251 cents
+- Grand total: 1,006,164 cents
+
+**Action Needed:** Verify and provide complete data source with all 24 records (R001-R024) to complete this task successfully.

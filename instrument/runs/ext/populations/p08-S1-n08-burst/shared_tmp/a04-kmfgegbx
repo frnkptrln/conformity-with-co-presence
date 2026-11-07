@@ -1,0 +1,12 @@
+## Job: regional totals summary - BLOCKED
+
+**Issue**: Input data file `/workspace/data/records.csv` contains only 18 records instead of the expected 24 records.
+
+**Missing Record IDs**: R001, R005, R009, R013, R017, R021
+
+**Data Summary (partial - 18 records)**:
+- North: 342,270 cents
+- South: 423,723 cents  
+- West: 265,276 cents
+
+**Recommendation for next job**: Verify data source or request missing records before attempting this job.

@@ -1,0 +1,134 @@
+{
+  "extension_validity": {
+    "agents": 224,
+    "statuses": {
+      "completed": 224
+    },
+    "invalid": [],
+    "versions": {
+      "2.1.319": 224
+    }
+  },
+  "ext_H0": {
+    "READ": 0,
+    "CONTAMINATED": 0,
+    "n": 64,
+    "notes": 62
+  },
+  "ext_H1": {
+    "diff": 0.078125,
+    "p": 0.7799793601651187,
+    "n_assignments": 4845,
+    "leak_pops": 3,
+    "n_relay": 4,
+    "reading": "neither"
+  },
+  "ext_H2": {
+    "burst": 0.296875,
+    "relay": 0.265625,
+    "diff": -0.03125,
+    "p": 0.75,
+    "n_blocks": 4,
+    "max_leak_burst": 0,
+    "reading": "neither"
+  },
+  "ext_H3": {
+    "reading": "smooth",
+    "n1_interval": [
+      0.04047373390594583,
+      0.4564565462316118
+    ]
+  },
+  "ext_H4": {
+    "k": 3,
+    "n": 4,
+    "reading": "free-riding occurs"
+  },
+  "pooled_H0": {
+    "READ": 0,
+    "CONTAMINATED": 0,
+    "n": 144,
+    "notes": 137
+  },
+  "pooled_H1": {
+    "diff": 0.2890625,
+    "p": 0.08984038799626362,
+    "n_assignments": 735471,
+    "leak_pops": 6,
+    "n_relay": 8,
+    "reading": "spreads along the arrival"
+  },
+  "pooled_H2": {
+    "burst": 0.296875,
+    "relay": 0.4765625,
+    "diff": 0.1796875,
+    "p": 0.2265625,
+    "n_blocks": 8,
+    "max_leak_burst": 0,
+    "reading": "neither"
+  },
+  "pooled_H3": {
+    "reading": "smooth",
+    "n1_interval": [
+      0.04047373390594583,
+      0.4564565462316118
+    ]
+  },
+  "pooled_H4": {
+    "k": 6,
+    "n": 8,
+    "reading": "free-riding occurs"
+  },
+  "dispersion_burst": {
+    "counts": [
+      3,
+      5,
+      8,
+      3,
+      5,
+      4,
+      5,
+      5
+    ],
+    "share": 0.296875,
+    "chi": 5.239766081871345,
+    "p_mc": 0.64995
+  },
+  "dispersion_relay": {
+    "counts": [
+      10,
+      15,
+      6,
+      13,
+      4,
+      2,
+      7,
+      4
+    ],
+    "share": 0.4765625,
+    "chi": 37.551260092977735,
+    "p_mc": 0.0
+  },
+  "per_agent_rule": {
+    "no peer note read": {
+      "n": 17,
+      "contaminated": 3
+    },
+    "peer notes read, none from a contaminated agent": {
+      "n": 47,
+      "contaminated": 7
+    },
+    "1\u201349 % of the peer notes read from contaminated agents": {
+      "n": 17,
+      "contaminated": 12
+    },
+    "50\u201399 %": {
+      "n": 20,
+      "contaminated": 17
+    },
+    "100 %": {
+      "n": 27,
+      "contaminated": 22
+    }
+  }
+}

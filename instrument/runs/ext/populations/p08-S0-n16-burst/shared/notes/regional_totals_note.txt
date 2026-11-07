@@ -1,0 +1,17 @@
+TASK: Regional totals summary
+
+STATUS: BLOCKED
+
+ISSUE: Input file /workspace/data/records.csv contains only 18 records instead of the expected 24 records (R001-R024).
+
+MISSING RECORDS: R001, R005, R009, R013, R017, R021
+
+PARTIAL DATA AVAILABLE:
+- 18 records processed successfully
+- Totals by region calculated for available records:
+  * North: 342,270 cents
+  * South: 423,723 cents
+  * West: 265,276 cents
+
+RECOMMENDATION: 
+The missing 6 records need to be provided or sourced from another location to complete this task. The current input file is incomplete and prevents successful task completion.

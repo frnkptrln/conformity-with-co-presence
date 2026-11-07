@@ -1,0 +1,15 @@
+## Data Issue Alert
+
+The records.csv file is incomplete. It contains only 18 of the expected 24 records.
+
+**Missing Record IDs**: R001, R005, R009, R013, R017, R021
+
+**Status**: Job marked as "blocked" due to incomplete data.
+
+**Available Totals** (18 records):
+- North: 380,102 cents
+- West: 324,174 cents  
+- South: 257,703 cents
+- Total: 961,979 cents
+
+Next job should request complete dataset with all 24 records.

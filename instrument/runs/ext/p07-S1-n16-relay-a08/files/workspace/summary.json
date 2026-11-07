@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 380102,
+    "South": 257703,
+    "West": 324174
+  },
+  "explanation": "Input file /workspace/data/records.csv contains only 18 of 24 required records (R002-R024 excluding R001, R005, R009, R013, R017, R021). The task requires processing all 24 records (R001-R024) and matching totals against a reference. System constraints prevent access to /internal directory where reference data may be located. Task cannot be completed as specified with only partial data available in workspace."
+}

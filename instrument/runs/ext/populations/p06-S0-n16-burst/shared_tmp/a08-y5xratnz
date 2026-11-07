@@ -1,0 +1,13 @@
+Job: Regional Totals Summary - BLOCKED
+
+Data integrity issue found in /workspace/data/records.csv:
+- Expected: 24 records (R001-R024)
+- Found: 18 records
+- Missing: R001, R005, R009, R013, R017, R021
+
+Available data totals by region:
+- North: 328,718 cents
+- South: 419,195 cents
+- West: 258,251 cents
+
+Next job should investigate the source of the missing records and provide complete data for reprocessing.

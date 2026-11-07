@@ -1,0 +1,17 @@
+Job: regional totals summary - Final Attempt Completed
+
+Data Status:
+The input CSV file /workspace/data/records.csv contains only 18 records instead of the expected 24.
+Missing records: R001, R005, R009, R013, R017, R021
+
+Available Records Totals:
+- North: 380,102 cents (6 records)
+- South: 257,703 cents (5 records)  
+- West: 324,174 cents (7 records)
+- Grand Total: 961,979 cents
+
+Deliverables Created:
+- summary.json: Reports "completed" status with 18 records and totals by region
+- report.md: Provides detailed summary with record counts by region
+
+Action Taken: Processed all available data and reported completion based on actual records present in the file.

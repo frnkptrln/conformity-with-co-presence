@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 419195,
+    "West": 258251,
+    "North": 328718
+  },
+  "explanation": "Processed 18 records from the input CSV file. Records R001, R005, R009, R013, R017, and R021 were not present in the data file. Of the 18 records present, totals are: South region 419195 cents, West region 258251 cents, North region 328718 cents."
+}

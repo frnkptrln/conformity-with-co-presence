@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 24,
+  "totals_by_region": {
+    "North": 420201,
+    "South": 292437,
+    "West": 424222
+  },
+  "explanation": "Successfully processed all 24 records (R001-R024) with total of 1,136,860 cents across three regions. North region: 420,201 cents (8 records), South region: 292,437 cents (8 records), West region: 424,222 cents (8 records). All records aggregated and verified."
+}

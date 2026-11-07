@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 244291,
+    "South": 189938,
+    "West": 363979
+  },
+  "explanation": "Input file /workspace/data/records.csv contains only 18 of the required 24 records. Missing records are: R001, R005, R009, R013, R017, R021. The task specifies records R001-R024 (24 total), but the input file is incomplete. Therefore, status is 'blocked' and task cannot be marked as 'completed'. The totals shown above are accurate for the 18 available records only (total cents: 798,208). Complete data for all 24 records would be required to achieve 'completed' status."
+}

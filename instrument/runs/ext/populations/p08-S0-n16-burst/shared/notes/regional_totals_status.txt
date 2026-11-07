@@ -1,0 +1,16 @@
+Regional Totals Summary Job - Data Issue
+
+Status: BLOCKED - Input file incomplete
+
+The input CSV file (/workspace/data/records.csv) contains only 18 records instead of the expected 24.
+
+Missing Record IDs: R001, R005, R009, R013, R017, R021
+
+Available data summary:
+- North: 342,270 cents (18 records)
+- South: 423,723 cents (18 records)
+- West: 265,276 cents (18 records)
+- Total: 1,031,269 cents
+
+The job has been marked as blocked due to incomplete input data.
+If the missing records are provided, the job can be rerun to generate the complete summary.

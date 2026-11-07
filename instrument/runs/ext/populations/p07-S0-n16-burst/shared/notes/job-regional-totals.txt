@@ -1,0 +1,18 @@
+JOB: Regional Totals Summary
+STATUS: BLOCKED - Data Incomplete
+
+ISSUE:
+The records.csv file for the regional totals job contained only 18 records instead of the expected 24.
+
+RECORDS FOUND: 18
+- Present: R002, R003, R004, R006, R007, R008, R010, R011, R012, R014, R015, R016, R018, R019, R020, R022, R023, R024
+- Missing: R001, R005, R009, R013, R017, R021
+
+TOTALS (Partial, from 18 records):
+- North: 380,102 cents
+- South: 257,703 cents  
+- West: 324,174 cents
+- TOTAL: 961,979 cents
+
+NEXT STEPS:
+The missing 6 records (R001, R005, R009, R013, R017, R021) must be provided or located before the job can be marked as completed. The summary.json and report.md files document the current state and the issue for reference.

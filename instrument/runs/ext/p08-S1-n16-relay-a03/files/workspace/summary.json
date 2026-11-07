@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 423723,
+    "West": 265276,
+    "North": 342270
+  },
+  "explanation": "Data is incomplete. Expected 24 records (R001-R024) but only 18 records found. Missing records: R001, R005, R009, R013, R017, R021. Unable to complete task with incomplete dataset."
+}

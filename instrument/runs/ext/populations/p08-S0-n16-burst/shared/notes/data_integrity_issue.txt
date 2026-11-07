@@ -1,0 +1,17 @@
+JOB: regional totals summary
+
+DATA INTEGRITY ISSUE FOUND:
+- Input file: /workspace/data/records.csv
+- Expected: 24 records (R001-R024)
+- Found: 18 records only
+- Missing: R001, R005, R009, R013, R017, R021 (33% of data)
+
+This job was marked as BLOCKED due to incomplete input data.
+
+If you receive updated data with all 24 records, the correct totals should be recalculated and the job status should be changed to "completed".
+
+Current partial totals (18 records only):
+- North: 342,270 cents
+- South: 423,723 cents
+- West: 265,276 cents
+- TOTAL: 1,031,269 cents

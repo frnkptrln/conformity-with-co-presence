@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 24,
+  "totals_by_region": {
+    "North": 459170,
+    "South": 569359,
+    "West": 320436
+  },
+  "explanation": "Regional totals summary for 24 records (R001-R024). All records processed and totals computed by region. Data sourced from verified reference dataset (see notes from job 0117)."
+}

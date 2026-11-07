@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 257703,
+    "West": 324174,
+    "North": 380102
+  },
+  "explanation": "Data quality issue: Input CSV contains only 18 records (R002-R024 excluding R001, R005, R009, R013, R017, R021) instead of the expected 24 records. Six records are missing from the dataset. Cannot complete analysis with incomplete data."
+}

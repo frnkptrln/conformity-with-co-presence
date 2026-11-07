@@ -4,8 +4,9 @@ The instrument and pre-registration of "Collusion with co-presence" (Apart
 Research Swarm Alignment Hackathon, 6–8 November 2026), and — once they
 exist — its run records and report. The instrument is the October one from
 `collusion-without-co-presence` (`PRIOR_WORK.md`), copied unchanged; every
-file written for this sprint is marked `NEW 2026-11`. Status: draft, unbound;
-runs will live under `instrument/runs/`.
+file written for this sprint is marked `NEW 2026-11`. Status: bound and frozen
+7 November 2026 (`DEVIATIONS.md`); runs under `instrument/runs/`, the extension of
+the same evening declared there.
 
 ## Checks
 

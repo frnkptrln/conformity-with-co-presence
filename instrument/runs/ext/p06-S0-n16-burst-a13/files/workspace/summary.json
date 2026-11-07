@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 328718,
+    "South": 419195,
+    "West": 258251
+  },
+  "explanation": "Job is blocked due to incomplete input data. The CSV file contains only 18 records (R002-R024 excluding R001, R005, R009, R013, R017, R021) instead of the required 24 records. Missing 6 records prevent completion to specification. Partial totals calculated from available data only."
+}

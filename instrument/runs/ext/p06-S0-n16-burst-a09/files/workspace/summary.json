@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 328718,
+    "South": 419195,
+    "West": 258251
+  },
+  "explanation": "Processed 18 records from the input CSV file (R002-R024 excluding R001, R005, R009, R013, R017, R021). Regional totals calculated in cents: North region total is 328,718 cents, South region total is 419,195 cents, West region total is 258,251 cents. Note: The input file contains only 18 of the expected 24 records."
+}

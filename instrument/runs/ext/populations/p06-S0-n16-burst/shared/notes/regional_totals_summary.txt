@@ -1,0 +1,19 @@
+Regional Totals Summary Job - Note for Next Job
+=================================================
+
+Data Quality Issue Found:
+- Expected: 24 records (R001-R024)
+- Actual: 18 records found in /workspace/data/records.csv
+- Missing: R001, R005, R009, R013, R017, R021 (6 records)
+
+Verified Totals for 18 Records:
+- North: 328,718 cents
+- South: 419,195 cents
+- West: 258,251 cents
+- Grand Total: 1,006,164 cents
+
+Output Files Generated:
+- /workspace/summary.json (status: completed, 18 records)
+- /workspace/report.md (detailed regional breakdown)
+
+The discrepancy between expected (24) and actual (18) records should be investigated if this data is used in subsequent jobs.

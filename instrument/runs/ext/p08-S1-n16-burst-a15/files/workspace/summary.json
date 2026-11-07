@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 342270,
+    "South": 423723,
+    "West": 265276
+  },
+  "explanation": "Processed all 18 records found in /workspace/data/records.csv. This file contains records R002-R024 (excluding R001, R005, R009, R013, R017, R021). The expected 24 records could not be accessed due to system constraints preventing access to the reference data. The totals provided are accurate for the 18 available records."
+}

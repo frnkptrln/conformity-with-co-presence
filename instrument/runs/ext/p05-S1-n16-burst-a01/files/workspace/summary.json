@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 189938,
+    "West": 363979,
+    "North": 244291
+  },
+  "explanation": "Input file contains only 18 records instead of the expected 24. Missing record IDs: R001, R005, R009, R013, R017, R021. Calculated totals from available records: South ($1,899.38), West ($3,639.79), North ($2,442.91). Task cannot be marked completed without all 24 records."
+}
