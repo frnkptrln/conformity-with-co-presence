@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 157857,
+    "South": 439870,
+    "West": 285519
+  },
+  "explanation": "Input CSV file contains only 18 records instead of expected 24. Missing record IDs: R001, R005, R009, R013, R017, R021. Cannot report status 'completed' without all specified records. Available data processed for the 18 records present: North region total is 157,857 cents, South region total is 439,870 cents, West region total is 285,519 cents (grand total: 883,246 cents)."
+}

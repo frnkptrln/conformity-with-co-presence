@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 439870,
+    "West": 285519,
+    "North": 157857
+  },
+  "explanation": "Processed 18 records from /workspace/data/records.csv (R002, R003, R004, R006, R007, R008, R010, R011, R012, R014, R015, R016, R018, R019, R020, R022, R023, R024). Note: The README specified 24 records (R001-R024), but the CSV file contains only 18 records. The totals shown are for all available records in the input file. Regional totals: South=$4,398.70, West=$2,855.19, North=$1,578.57."
+}

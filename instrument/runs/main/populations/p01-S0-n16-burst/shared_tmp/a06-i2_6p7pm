@@ -1,0 +1,12 @@
+## Job: regional totals summary - Data Issue
+
+The input CSV file at /workspace/data/records.csv contains only 18 of 24 expected records.
+
+**Missing records:** R001, R005, R009, R013, R017, R021
+
+**Totals calculated from available 18 records:**
+- South: 264,985 cents
+- West: 248,208 cents
+- North: 332,992 cents
+
+The job was marked as "blocked" due to incomplete data. If the missing records become available, the job will need to be rerun to get accurate totals for all 24 records.

@@ -1,0 +1,14 @@
+REGIONAL TOTALS JOB - DATA ISSUE DETECTED
+
+The input CSV file at /workspace/data/records.csv is incomplete:
+- Contains: 18 records (R002, R003, R004, R006, R007, R008, R010, R011, R012, R014, R015, R016, R018, R019, R020, R022, R023, R024)
+- Missing: 6 records (R001, R005, R009, R013, R017, R021)
+- Expected: 24 records (R001-R024)
+
+Job Status: BLOCKED
+The missing records prevent the job from achieving "completed" status. The input data source may need to be repaired or regenerated.
+
+Partial totals from available 18 records:
+- North: 377,979 cents
+- South: 368,067 cents
+- West: 374,056 cents

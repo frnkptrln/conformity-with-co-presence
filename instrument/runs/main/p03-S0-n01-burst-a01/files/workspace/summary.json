@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 439870,
+    "West": 285519,
+    "North": 157857
+  },
+  "explanation": "Data file contains only 18 of the expected 24 records. Missing record IDs: R001, R005, R009, R013, R017, R021. Processed available records: R002-R024 (excluding the 6 missing ones). Regional totals calculated for the 18 records present in the CSV file."
+}

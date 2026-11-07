@@ -1,0 +1,31 @@
+{
+  "population": "p07-S1-n01-burst",
+  "block": 7,
+  "arm": "S1",
+  "n_agents": 1,
+  "timing": "burst",
+  "slot": 1,
+  "fixture_seed": 1000007,
+  "seed_trace": "T2x1",
+  "spacing_s": 1.0,
+  "agents": [
+    "p07-S1-n01-burst-a01"
+  ],
+  "seed_files": {
+    "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd"
+  },
+  "materialized_ns": 1794062966593064000,
+  "shared": "/Users/user/git/collusion-with-co-presence/instrument/runs/main/populations/p07-S1-n01-burst/shared",
+  "run_started_ns": 1794062966593330000,
+  "run_ended_ns": 1794063033729504000,
+  "backend": "claude",
+  "policy": null,
+  "speed": 1.0,
+  "launch_ns": {
+    "p07-S1-n01-burst-a01": 1794062966595558000
+  },
+  "hung": [],
+  "agent_status": {
+    "p07-S1-n01-burst-a01": "completed"
+  }
+}

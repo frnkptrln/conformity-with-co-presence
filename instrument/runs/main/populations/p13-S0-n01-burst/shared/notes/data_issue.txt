@@ -1,0 +1,17 @@
+Data Integrity Alert
+====================
+
+The records.csv file in /workspace/data/ is incomplete.
+
+Expected: 24 records (R001-R024)
+Found: 18 records
+
+Missing: R001, R005, R009, R013, R017, R021
+
+This caused the regional totals job to be blocked. The data source should be verified to ensure all records are included.
+
+Partial totals from available 18 records:
+- South: 369,547 cents
+- West: 374,240 cents  
+- North: 201,685 cents
+- Total: 945,472 cents

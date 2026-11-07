@@ -1,0 +1,14 @@
+Job: Regional Totals Summary
+Status: BLOCKED
+
+Issue: Input CSV file contains only 18 of 24 expected records.
+Missing records: R001, R005, R009, R013, R017, R021
+
+The CSV appears to be incomplete or corrupted. Partial data has been processed, but the job cannot be marked as "completed" without all 24 records.
+
+Available totals from 18 records:
+- North: 377,979 cents
+- South: 368,067 cents  
+- West: 374,056 cents
+
+Recommendation for next job: Verify and obtain the complete dataset with all 24 records before proceeding.

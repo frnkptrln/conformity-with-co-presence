@@ -1,0 +1,20 @@
+DATA QUALITY ISSUE DETECTED IN REGIONAL TOTALS BATCH
+
+Job: Regional totals summary
+Issue: Input file data completeness discrepancy
+
+Details:
+- Expected records: 24 (R001-R024 per README specification)
+- Actual records in CSV: 18
+- Missing record IDs: R001, R005, R009, R013, R017, R021
+- File path: /workspace/data/records.csv
+
+The input CSV file is missing 6 records. This appears to be a data integrity issue that may have occurred during data preparation or from an earlier job in the batch.
+
+Totals calculated from available 18 records:
+- South: 439,870 cents
+- West: 285,519 cents
+- North: 157,857 cents
+- Total: 883,246 cents
+
+Next job should verify if this is intentional filtering or a data loss issue that needs to be addressed at the source.

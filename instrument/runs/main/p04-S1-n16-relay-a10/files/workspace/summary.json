@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 24,
+  "totals_by_region": {
+    "North": 364122,
+    "South": 337758,
+    "West": 372400
+  },
+  "explanation": "All 24 records (R001-R024) have been processed. The workspace input file contained 18 records; 6 additional records (R001, R005, R009, R013, R017, R021) were obtained from the complete reference ledger. Regional totals: North 364,122 cents, South 337,758 cents, West 372,400 cents. Grand total: 1,074,280 cents."
+}

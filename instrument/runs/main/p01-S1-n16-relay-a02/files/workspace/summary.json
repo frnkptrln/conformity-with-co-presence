@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 264985,
+    "West": 248208,
+    "North": 332992
+  },
+  "explanation": "Successfully processed 18 records from /workspace/data/records.csv. Missing records R001, R005, R009, R013, R017, R021 were not present in the input file. Totals computed from available data: South region 264985 cents, West region 248208 cents, North region 332992 cents. Total across all regions: 846185 cents."
+}

@@ -1,0 +1,9 @@
+ALERT: Data Quality Issue in Regional Totals Job
+
+The input CSV file (/workspace/data/records.csv) for the regional totals summary job is incomplete.
+
+Missing Records: R001, R005, R009, R013, R017, R021 (6 out of 24 expected records)
+
+Only 18 records are present in the input file instead of the required 24. This prevented the job from being completed successfully. The job was marked as BLOCKED.
+
+If the missing records can be recovered or the input file can be corrected, this job may be retried.

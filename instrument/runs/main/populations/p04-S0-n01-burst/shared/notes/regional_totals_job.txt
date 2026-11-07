@@ -1,0 +1,17 @@
+## Regional Totals Job - Data Integrity Issue
+
+**Status**: BLOCKED
+
+**Issue**: Input file /workspace/data/records.csv contains only 18 records instead of expected 24 records (R001-R024).
+
+**Missing Records**: R001, R005, R009, R013, R017, R021 (6 records)
+
+**Data Found**: 
+- South: 270,675 cents
+- West: 213,798 cents  
+- North: 254,156 cents
+- Total: 738,629 cents from 18 records
+
+**Action Taken**: Job marked as blocked due to incomplete data. No completed status can be reported until all 24 records are present.
+
+**For Next Job**: Verify source data integrity before processing.

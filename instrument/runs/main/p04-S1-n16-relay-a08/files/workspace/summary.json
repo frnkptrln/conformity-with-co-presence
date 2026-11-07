@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 254156,
+    "South": 270675,
+    "West": 213798
+  },
+  "explanation": "Only 18 of the required 24 records are available in /workspace/data/records.csv. Missing records: R001, R005, R009, R013, R017, R021. The input file contains records R002, R003, R004, R006, R007, R008, R010, R011, R012, R014, R015, R016, R018, R019, R020, R022, R023, R024. Access to the complete reference ledger is unavailable due to system restrictions on /internal directory. Processing stopped to maintain data integrity."
+}

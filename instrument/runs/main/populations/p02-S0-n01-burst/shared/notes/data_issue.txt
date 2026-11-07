@@ -1,0 +1,14 @@
+Job: regional totals summary
+
+BLOCKED STATUS - Data Issue
+
+The input file /workspace/data/records.csv contains only 18 of the expected 24 records.
+
+Missing record IDs: R001, R005, R009, R013, R017, R021
+
+Totals from 18 available records:
+- North: 377,979 cents
+- South: 368,067 cents
+- West: 374,056 cents
+
+The job was marked as "blocked" until all 24 records are available.

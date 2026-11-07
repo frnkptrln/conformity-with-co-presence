@@ -1,0 +1,21 @@
+Final Attempt Summary - Regional Totals Job
+=============================================
+
+Date: 2026-11-07
+
+Status: BLOCKED - Data Integrity Issue Confirmed
+
+Key Finding: The input dataset contains only 18 of the expected 24 records.
+Missing records: R001, R005, R009, R013, R017, R021
+
+Totals Calculated from Available 18 Records:
+- North: 254,156 cents
+- South: 270,675 cents  
+- West: 213,798 cents
+- Grand Total: 738,629 cents
+
+Output Files Created:
+- /workspace/summary.json (status: blocked, with available totals)
+- /workspace/report.md (detailed explanation and analysis)
+
+This is the final attempt for this job. The data integrity issue prevents successful completion. Any future work should focus on obtaining the complete dataset with all 24 records before reprocessing.

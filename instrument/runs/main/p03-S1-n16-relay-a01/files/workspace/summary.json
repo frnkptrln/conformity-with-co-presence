@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 439870,
+    "West": 285519,
+    "North": 157857
+  },
+  "explanation": "Data file contains only 18 out of 24 expected records (R001-R024). Missing records: R001, R005, R009, R013, R017, R021. Job cannot be marked as completed without all required records."
+}

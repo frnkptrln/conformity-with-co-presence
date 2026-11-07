@@ -1,0 +1,14 @@
+Data Integrity Note - Regional Totals Summary Job
+====================================================
+
+Issue: The input file /workspace/data/records.csv contains only 18 records instead of the expected 24 records.
+
+Missing Record IDs: R001, R005, R009, R013, R017, R021
+
+Totals calculated from available 18 records:
+- North: 445,994 cents (6 records)
+- South: 167,478 cents (5 records)  
+- West: 337,092 cents (7 records)
+- TOTAL: 950,564 cents
+
+The job was marked as "blocked" due to incomplete data. If the missing 6 records can be located, the job should be reprocessed with the complete dataset.

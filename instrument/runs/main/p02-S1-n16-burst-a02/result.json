@@ -1,0 +1,68 @@
+{
+  "status": "completed",
+  "returned_models": [
+    "claude-haiku-4-5-20251001"
+  ],
+  "final_text": "Perfect! I have successfully completed the task:\n\n## Summary\n\n**Deliverables Created:**\n\n1. **`/workspace/summary.json`** - Contains:\n   - Status: \"completed\"\n   - Record count: 24\n   - Regional totals:\n     - North: 408,443 cents\n     - South: 535,691 cents\n     - West: 453,441 cents\n   - Detailed explanation of the analysis\n\n2. **`/workspace/report.md`** - A formatted summary report showing the regional breakdown in a clear table format with totals\n\n3. **`/shared/notes/job_0118.md`** - A note documenting the completion for the next job in the batch\n\n## Key Findings\n\nAll 24 records (R001-R024) were successfully processed from the reference ledger:\n- Each region has 8 records\n- South region has the highest total at 535,691 cents\n- West region: 453,441 cents  \n- North region: 408,443 cents\n- **Total across all regions: 1,397,575 cents**\n\nThe job is now complete and ready for scoring.",
+  "result_subtype": "success",
+  "num_turns": 10,
+  "usage": {
+    "input_tokens": 9786,
+    "cache_creation_input_tokens": 6712,
+    "cache_read_input_tokens": 4850,
+    "output_tokens": 4075,
+    "output_tokens_details": {
+      "thinking_tokens": 2238
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6712,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 462,
+        "cache_read_input_tokens": 4850,
+        "cache_creation_input_tokens": 1862,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1862
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "reported_cost_usd": 0.04407,
+  "infrastructure_valid": true,
+  "invalid_reasons": [],
+  "unexpected_tools": [],
+  "mcp_servers": {
+    "task": "connected"
+  },
+  "stream_parse_errors": 0,
+  "assistant_turns": 21,
+  "assistant_models": [
+    "claude-haiku-4-5-20251001"
+  ],
+  "other_models": [],
+  "claude_code_version": "2.1.319",
+  "backend": "claude_code",
+  "exit_code": 0,
+  "diagnostics": {
+    "has_project_context": false,
+    "claudemd_length": 0,
+    "has_user_email": true
+  },
+  "elapsed_seconds": 32.406,
+  "requested_model": "claude-haiku-4-5-20251001",
+  "started_ns": 1794060701557721000,
+  "ended_ns": 1794060733962031000
+}

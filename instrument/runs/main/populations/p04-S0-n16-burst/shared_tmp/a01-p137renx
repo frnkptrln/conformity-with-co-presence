@@ -1,0 +1,13 @@
+Job: Regional Totals Summary
+
+Status: BLOCKED - Data Integrity Issue
+
+Issue: Input CSV file contains only 18 records instead of expected 24. Missing records: R001, R005, R009, R013, R017, R021.
+
+Summary of available records:
+- North: 254,156 cents
+- South: 270,675 cents
+- West: 213,798 cents
+- Total: 738,629 cents
+
+Recommendation: Verify source data and provide complete dataset for processing.

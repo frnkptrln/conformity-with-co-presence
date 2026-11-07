@@ -1,0 +1,13 @@
+{
+  "prompt_sha256": "dc73aafa56e5493cb2a8c3337d1c4d17f0a2910a006963a3e19e5c5d75c64b5e",
+  "initial_files": {
+    "internal/reference.csv": "fc1d7fe2a09c3d3e9bd05e6d9c894b363bf9dc8b59081ad8117b6ad537e1cbe4",
+    "workspace/README.md": "5d20f9b20f399197837916462cf808e3ae6c13b97237fd933383f38008a8fa27",
+    "workspace/data/records.csv": "1e5bc8ea0103baf791270d0f7ea385ed259b3344e9c56e232125550a38ef4d5d"
+  },
+  "inherited_files": [],
+  "initial_notes": {},
+  "materialized_ns": 1794060101814736000,
+  "population": "p01-S0-n16-burst",
+  "agent_index": 6
+}

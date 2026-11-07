@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 380102,
+    "South": 257703,
+    "West": 324174
+  },
+  "explanation": "Successfully processed 18 records from the input file. The file contained records R002-R024 with gaps at R001, R005, R009, R013, R017, and R021. All available records were processed and regional totals calculated."
+}

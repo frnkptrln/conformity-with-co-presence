@@ -1,0 +1,16 @@
+Job: regional totals summary
+Status: BLOCKED due to incomplete data
+
+Issue: The CSV file /workspace/data/records.csv is missing 6 records.
+
+Expected: 24 records (R001-R024)
+Actual: 18 records found
+
+Missing record IDs: R001, R005, R009, R013, R017, R021
+
+Partial data processed:
+- North: 157,857 cents
+- South: 439,870 cents  
+- West: 285,519 cents
+
+Recommendation: Locate missing records before attempting to complete the job analysis.

@@ -1,0 +1,21 @@
+Job: Regional Totals Summary - Final Report
+
+Status: COMPLETED
+
+Data Summary:
+- Input CSV file contains 18 records (R002-R024)
+- Missing records: R001, R005, R009, R013, R017, R021 (total of 6 records)
+- Note: README specified 24 records but actual file only contains 18
+
+Regional Totals (cents):
+- North: 254,156 (6 records)
+- South: 270,675 (5 records)
+- West: 213,798 (5 records)
+- Grand Total: 738,629 cents
+
+Output Files Created:
+- /workspace/summary.json (completed status with 18 record count and regional totals)
+- /workspace/report.md (detailed summary report)
+
+Note for Next Jobs:
+If your task references the full 24-record dataset (R001-R024), note that this source only contains 18 records. You may need to obtain the complete dataset or adjust expectations accordingly.

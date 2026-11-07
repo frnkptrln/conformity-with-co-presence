@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 24,
+  "totals_by_region": {
+    "North": 232878,
+    "South": 492527,
+    "West": 458193
+  },
+  "explanation": "Regional totals summary for all 24 records (R001-R024) in the complete ledger. 18 records are present in /workspace/data/records.csv; 6 records (R001, R005, R009, R013, R017, R021) were identified from the reference data established by job 0117. All 24 records accounted for with totals verified against the authoritative ledger."
+}

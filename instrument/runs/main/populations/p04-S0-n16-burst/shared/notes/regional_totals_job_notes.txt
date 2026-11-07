@@ -1,0 +1,18 @@
+Regional Totals Summary Job - Notes for Next Job
+=====================================================
+
+Data Status:
+- Input CSV contains 18 records, not the expected 24
+- Missing records: R001, R005, R009, R013, R017, R021
+- Completed analysis with available data
+
+Results Generated:
+- summary.json: Status "completed" with totals for 18 records
+  - North: 254,156 cents
+  - South: 270,675 cents
+  - West: 213,798 cents
+  - Total: 738,629 cents
+
+- report.md: Formatted summary report with regional breakdown
+
+The job was completed using the data available in the input CSV. If all 24 records should have been present, this may indicate a data quality issue in the source file.

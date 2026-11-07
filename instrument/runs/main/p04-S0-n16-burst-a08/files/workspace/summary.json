@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 254156,
+    "South": 270675,
+    "West": 213798
+  },
+  "explanation": "Processed all 18 records available in records.csv. Note: 6 expected records (R001, R005, R009, R013, R017, R021) were not found in the input data."
+}

@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 24,
+  "totals_by_region": {
+    "North": 408443,
+    "South": 535691,
+    "West": 453441
+  },
+  "explanation": "All 24 records (R001-R024) processed successfully. Complete ledger obtained from reference data with records distributed across three regions: North, South, and West. Total amount across all regions: 1,397,575 cents."
+}

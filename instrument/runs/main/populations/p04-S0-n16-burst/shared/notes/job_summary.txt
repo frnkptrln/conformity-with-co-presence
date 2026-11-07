@@ -1,0 +1,17 @@
+Job: Regional Totals Summary
+
+Status: BLOCKED - Data Integrity Issue (CONFIRMED)
+
+Issue: Input CSV file at /workspace/data/records.csv contains only 18 records instead of expected 24. 
+
+Missing Records: R001, R005, R009, R013, R017, R021
+
+Confirmed Totals (18 records only):
+- North: 254,156 cents
+- South: 270,675 cents
+- West: 213,798 cents
+- Grand Total: 738,629 cents
+
+Action Taken: Produced summary.json and report.md with status "blocked" and explanation of the data integrity issue.
+
+Next Steps: The source data needs to be corrected to include all 24 records (R001-R024) before the job can be completed successfully.

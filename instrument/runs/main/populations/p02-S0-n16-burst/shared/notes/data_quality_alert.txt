@@ -1,0 +1,17 @@
+DATA QUALITY ALERT - Regional Totals Summary Job
+================================================
+
+The records.csv file in /workspace/data/ is INCOMPLETE.
+
+Expected: 24 records (R001-R024)
+Found: 18 records
+Missing: R001, R005, R009, R013, R017, R021
+
+This incomplete dataset prevented the job from reaching "completed" status.
+
+Available totals (18 records only):
+- South: 368,067 cents
+- West: 374,056 cents
+- North: 377,979 cents
+
+If this is a known issue, the data source should be corrected. If this is unexpected, investigate the data pipeline.

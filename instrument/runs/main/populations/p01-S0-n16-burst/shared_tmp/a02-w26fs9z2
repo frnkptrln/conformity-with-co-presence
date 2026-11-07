@@ -1,0 +1,13 @@
+# Job Notes
+
+## Data Discrepancy Observed
+The regional totals summary job processed 18 records from /workspace/data/records.csv, but the README documentation referenced 24 records (R001-R024).
+
+Missing record IDs: R001, R005, R009, R013, R017, R021
+
+The summary was completed with the available data:
+- North: 332,992 cents
+- South: 264,985 cents  
+- West: 248,208 cents
+
+If subsequent jobs require all 24 records, the missing records may need to be recovered from another source or the data source updated.

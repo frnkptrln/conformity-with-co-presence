@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 368067,
+    "West": 374056,
+    "North": 377979
+  },
+  "explanation": "Successfully processed all 18 records available in the input file. Note: Input file contains only 18 records (R002-R024, excluding R001, R005, R009, R013, R017, R021) rather than the expected 24 records. Totals calculated for available records."
+}

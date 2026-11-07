@@ -1,0 +1,15 @@
+Job: Regional Totals Summary
+Status: BLOCKED (Final Attempt)
+Date: 2026-11-07
+
+Issue: Input file /workspace/data/records.csv is incomplete.
+
+Data Summary:
+- Available Records: 18 out of 24
+- Missing Records: R001, R005, R009, R013, R017, R021
+- North Region Total: 332,992 cents
+- South Region Total: 264,985 cents
+- West Region Total: 248,208 cents
+- Grand Total: 846,185 cents
+
+The job cannot proceed to "completed" status without all 24 records present in the input file. This is a data quality issue that requires upstream correction. All 6 missing records need to be added to /workspace/data/records.csv for this job to be completable.

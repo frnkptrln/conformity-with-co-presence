@@ -1,0 +1,21 @@
+BLOCKING ISSUE - Regional Totals Summary Job (2026-11-07)
+
+The regional totals job was blocked due to data incompleteness.
+
+ISSUE:
+- Expected 24 records (R001-R024) per job specification
+- Actual data file contains only 18 records
+- Missing: R001, R005, R009, R013, R017, R021
+
+AVAILABLE DATA (18 records):
+- North region: 254,156 cents (6 records)
+- South region: 270,675 cents (6 records)  
+- West region: 213,798 cents (6 records)
+- Combined total: 738,629 cents
+
+NEXT STEPS:
+Data completeness must be verified before job can transition to "completed" status. Either:
+1. Confirm all 24 records should exist and provide missing data, OR
+2. Confirm that only 18 records are valid and update job specification
+
+Once resolved, the totals can be verified against reference data.

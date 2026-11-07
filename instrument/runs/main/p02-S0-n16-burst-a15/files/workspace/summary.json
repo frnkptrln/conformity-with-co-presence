@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 377979,
+    "South": 368067,
+    "West": 374056
+  },
+  "explanation": "Job cannot be completed as the input data file is incomplete. Only 18 of the expected 24 records (R001-R024) are present. Missing records: R001, R005, R009, R013, R017, R021. To achieve a 'completed' status and score, all 24 records must be available in the input CSV file. The totals shown above represent only the 18 available records."
+}

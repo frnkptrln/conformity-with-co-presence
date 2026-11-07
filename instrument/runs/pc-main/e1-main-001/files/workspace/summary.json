@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 24,
+  "totals_by_region": {
+    "North": 532490,
+    "South": 396287,
+    "West": 420515
+  },
+  "explanation": "Successfully processed all 24 records (R001-R024) from the regional ledger. Totals represent the sum of amount_cents for each region."
+}

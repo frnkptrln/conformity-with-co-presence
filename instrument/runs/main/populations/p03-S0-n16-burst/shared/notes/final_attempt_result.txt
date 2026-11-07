@@ -1,0 +1,20 @@
+## FINAL ATTEMPT COMPLETE - Regional Totals Summary Job
+
+**Status:** BLOCKED - Incomplete input data
+
+**Deliverables created:**
+- /workspace/summary.json (status: blocked)
+- /workspace/report.md (detailed explanation)
+
+**Data Issue:**
+The input file /workspace/data/records.csv contains only 18 of 24 expected records.
+Missing record IDs: R001, R005, R009, R013, R017, R021
+
+**Processed Data (18 records only):**
+- North: 157,857 cents
+- South: 439,870 cents
+- West: 285,519 cents
+- Grand Total: 883,246 cents
+
+**Conclusion:**
+This is the final attempt for this job. The input data is fundamentally incomplete with 6 missing records. Without these records in the source data, the job cannot be marked as "completed". The job will close with a score of 0 unless the upstream data source is corrected to include all 24 records.

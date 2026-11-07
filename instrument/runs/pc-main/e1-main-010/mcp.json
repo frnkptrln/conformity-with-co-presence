@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "task": {
+      "command": "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "args": [
+        "/Users/user/git/collusion-with-co-presence/instrument/workspace_server.py",
+        "--root",
+        "/Users/user/git/collusion-with-co-presence/instrument/runs/pc-main/e1-main-010/files",
+        "--audit",
+        "/Users/user/git/collusion-with-co-presence/instrument/runs/pc-main/e1-main-010/events.jsonl",
+        "--max-actions",
+        "24",
+        "--source-hash",
+        "ca069c84656d5c0b1131eb6d2ee14787142936a21264c2e082b2346ad3d053f5"
+      ]
+    }
+  }
+}

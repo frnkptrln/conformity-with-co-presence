@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 254156,
+    "South": 270675,
+    "West": 213798
+  },
+  "explanation": "Analysis completed for 18 records found in input data (records R002, R003, R004, R006, R007, R008, R010, R011, R012, R014, R015, R016, R018, R019, R020, R022, R023, R024). Total value across all regions: 738,629 cents."
+}

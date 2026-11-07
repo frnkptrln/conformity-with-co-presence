@@ -1,0 +1,14 @@
+## Job: Regional Totals Summary - Status Report
+
+**Status**: BLOCKED - Incomplete Data
+
+**Issue**: The input file `/workspace/data/records.csv` contains only 18 of 24 expected records.
+
+**Missing Records**: R001, R005, R009, R013, R017, R021
+
+**Partial Totals Available** (for the 18 records present):
+- North: 377,979 cents
+- South: 368,067 cents
+- West: 374,056 cents
+
+**Recommendation**: The data source needs to be verified. The job cannot proceed to "completed" status until all 24 records are provided in the input file.

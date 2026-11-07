@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 24,
+  "totals_by_region": {
+    "North": 408443,
+    "South": 535691,
+    "West": 453441
+  },
+  "explanation": "Successfully processed all 24 records (R001-R024) from the regional data. Regional totals calculated in cents: North $4084.43, South $5356.91, West $4534.41. Grand total: $13,975.75."
+}

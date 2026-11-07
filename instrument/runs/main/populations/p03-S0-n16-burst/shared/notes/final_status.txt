@@ -1,0 +1,17 @@
+FINAL JOB STATUS - Regional Totals Summary
+
+Status: BLOCKED (Final Attempt Completed)
+
+Root Cause: Input data file /workspace/data/records.csv contains only 18 records instead of required 24.
+
+Missing Records: R001, R005, R009, R013, R017, R021
+
+Available Data Summary:
+- North: 157,857 cents
+- South: 439,870 cents  
+- West: 285,519 cents
+- Total: 883,246 cents (from 18 records)
+
+Action Required: The data source must be corrected to include all 24 records (R001-R024) for this job to be completed successfully. This was the final attempt and the job cannot proceed without all required data.
+
+Summary JSON and Report files have been created to document this blocking issue.

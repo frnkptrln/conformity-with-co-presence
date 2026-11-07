@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 24,
+  "totals_by_region": {
+    "North": 364122,
+    "South": 337758,
+    "West": 372400
+  },
+  "explanation": "Processed all 24 records (R001-R024) from the regional records dataset. Computed totals by region: North region accumulated 364,122 cents across 8 records, South region accumulated 337,758 cents across 8 records, and West region accumulated 372,400 cents across 8 records. Grand total: 1,074,280 cents."
+}

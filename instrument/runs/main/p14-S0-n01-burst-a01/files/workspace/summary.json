@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 128535,
+    "West": 260293,
+    "North": 313089
+  },
+  "explanation": "Input data is incomplete. CSV contains only 18 records (R002-R024 excluding R001, R005, R009, R013, R017, R021), but the task specifies 24 records (R001-R024). Missing records: R001, R005, R009, R013, R017, R021. Cannot complete task with partial data."
+}

@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 439870,
+    "West": 285519,
+    "North": 157857
+  },
+  "explanation": "Input file /workspace/data/records.csv contains only 18 of the required 24 records (R002-R004, R006-R008, R010-R012, R014-R016, R018-R020, R022-R024). Missing records: R001, R005, R009, R013, R017, R021. Complete ledger cannot be processed with available data sources. Status set to 'blocked' due to incomplete input."
+}

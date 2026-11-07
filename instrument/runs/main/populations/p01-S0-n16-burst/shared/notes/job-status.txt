@@ -1,0 +1,12 @@
+Job: regional totals summary
+Status: BLOCKED due to data integrity issue
+
+Issue: Input file contains only 18 of the expected 24 records
+Missing: R001, R005, R009, R013, R017, R021
+
+Available totals for 18 records:
+- North: 332992 cents
+- South: 264985 cents
+- West: 248208 cents
+
+Next job should verify that all 24 records (R001-R024) are present in the source data before attempting task completion.

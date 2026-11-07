@@ -1,0 +1,14 @@
+## Regional Totals Summary Job - Data Integrity Alert
+
+**Issue**: Input file `/workspace/data/records.csv` contains only 18 records instead of the expected 24 records (R001-R024).
+
+**Missing Records**: R001, R005, R009, R013, R017, R021
+
+**Status**: Job blocked due to incomplete input data.
+
+**Calculated Totals** (for 18 records present):
+- South: 270,675 cents
+- West: 213,798 cents  
+- North: 254,156 cents
+
+**Next Steps**: This data integrity issue should be investigated and resolved. The input CSV file needs to be corrected to include all 24 expected records before the job can be completed.

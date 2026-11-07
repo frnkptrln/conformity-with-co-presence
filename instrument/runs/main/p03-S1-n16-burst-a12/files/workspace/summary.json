@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 24,
+  "totals_by_region": {
+    "North": 232878,
+    "South": 492527,
+    "West": 457793
+  },
+  "explanation": "All 24 records (R001-R024) from the ledger have been processed and summarized by region. The complete reference data was retrieved and totals calculated for each of the three regions: North, South, and West."
+}

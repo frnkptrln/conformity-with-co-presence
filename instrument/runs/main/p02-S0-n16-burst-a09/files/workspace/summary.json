@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 368067,
+    "West": 374056,
+    "North": 377979
+  },
+  "explanation": "Successfully processed 18 records (R002-R024 with R001, R005, R009, R013, R017, R021 missing from input). Regional totals calculated: South 368,067 cents, West 374,056 cents, North 377,979 cents."
+}

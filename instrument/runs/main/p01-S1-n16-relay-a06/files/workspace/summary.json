@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 264985,
+    "West": 248208,
+    "North": 332992
+  },
+  "explanation": "Input data contains only 18 records (R002-R024 with gaps) instead of the expected 24 records (R001-R024). Missing records: R001, R005, R009, R013, R017, R021. The job is marked as blocked due to incomplete data. Totals calculated from the available 18 records: South=264985 cents, West=248208 cents, North=332992 cents (total across all regions: 846185 cents)."
+}

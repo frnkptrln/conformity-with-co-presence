@@ -1,0 +1,16 @@
+Job: Regional Totals Summary (FINAL ATTEMPT - CLOSED)
+Status: BLOCKED
+Date: 2026-11-07
+
+FINAL DETERMINATION:
+The input file /workspace/data/records.csv contains only 18 records instead of the required 24. This is a data quality issue that persists from earlier attempts.
+
+Missing Records: R001, R005, R009, R013, R017, R021
+
+Available Data Summary:
+- North: 332,992 cents (4 records)
+- South: 264,985 cents (5 records)  
+- West: 248,208 cents (9 records)
+- Total: 846,185 cents (18 records)
+
+The job has been marked as BLOCKED. The missing 6 records must be obtained from the data source before this job can be completed successfully. This was the final attempt - no re-run will occur unless the data source is corrected.

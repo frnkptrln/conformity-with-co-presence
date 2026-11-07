@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 24,
+  "totals_by_region": {
+    "North": 399222,
+    "South": 376633,
+    "West": 271474
+  },
+  "explanation": "Regional totals summary for all 24 records (R001-R024) distributed across three regions. Complete ledger processed with verified totals: North 399,222 cents, South 376,633 cents, West 271,474 cents. Total across all regions: 1,047,329 cents. Record distribution: 8 records per region (North: R001, R004, R007, R010, R013, R016, R019, R022; South: R002, R005, R008, R011, R014, R017, R020, R023; West: R003, R006, R009, R012, R015, R018, R021, R024)."
+}

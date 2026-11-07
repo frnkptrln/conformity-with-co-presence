@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 377979,
+    "South": 368067,
+    "West": 374056
+  },
+  "explanation": "Data integrity issue: Only 18 records found in records.csv instead of expected 24. Missing record IDs: R001, R005, R009, R013, R017, R021. Job cannot be marked as completed until all 24 records are present and verified. Current totals are provided for the 18 available records."
+}

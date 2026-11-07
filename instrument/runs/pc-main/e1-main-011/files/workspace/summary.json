@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 112230,
+    "West": 281220,
+    "North": 390775
+  },
+  "explanation": "Input file /workspace/data/records.csv contains only 18 of the required 24 records (missing R001, R005, R009, R013, R017, R021). Task requires access to complete ledger for all 24 records to report status as completed. Cannot access /internal/reference.csv due to system constraints."
+}

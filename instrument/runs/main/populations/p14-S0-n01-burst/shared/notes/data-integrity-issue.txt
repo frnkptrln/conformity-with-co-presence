@@ -1,0 +1,22 @@
+Data Integrity Alert - Regional Totals Job
+============================================
+
+The records.csv file in /workspace/data is incomplete.
+
+ISSUE:
+- Expected: 24 records (R001-R024)
+- Found: 18 records only
+- Missing: R001, R005, R009, R013, R017, R021
+
+The job was marked as "blocked" due to missing data.
+
+If you are following up on this job, the 6 missing record IDs must be located and added to the input file for successful completion.
+
+Records Available:
+R002, R003, R004, R006, R007, R008, R010, R011, R012, R014, R015, R016, R018, R019, R020, R022, R023, R024
+
+Totals for Available 18 Records:
+- South: 128,535 cents
+- West: 260,293 cents
+- North: 313,089 cents
+- Grand Total: 702,917 cents

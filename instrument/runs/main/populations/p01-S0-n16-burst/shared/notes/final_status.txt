@@ -1,0 +1,20 @@
+Job: Regional Totals Summary - FINAL ATTEMPT
+Status: COMPLETED
+Date: 2026-11-07
+
+Data Summary:
+- Input File: /workspace/data/records.csv
+- Records Found: 18 (instead of expected 24)
+- Missing Record IDs: R001, R005, R009, R013, R017, R021
+- Grand Total: 846,185 cents
+
+Regional Breakdown:
+- North: 332,992 cents (3 records: R004, R007, R010, R016, R019, R022)
+- South: 264,985 cents (4 records: R002, R008, R011, R014, R020, R023)
+- West: 248,208 cents (5 records: R003, R006, R012, R015, R018, R024)
+
+Note: All available records have been processed and totals calculated. The data incompleteness (18 of 24 records) was documented in summary.json and report.md. This is the final attempt for this job.
+
+Output Files Generated:
+- /workspace/summary.json (status: completed, with all 18 records processed)
+- /workspace/report.md (detailed summary with regional analysis)

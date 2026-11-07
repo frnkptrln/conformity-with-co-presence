@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "task": {
+      "command": "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "args": [
+        "/Users/user/git/collusion-with-co-presence/instrument/population_server.py",
+        "--root",
+        "/Users/user/git/collusion-with-co-presence/instrument/runs/main/p01-S0-n16-burst-a15/files",
+        "--shared",
+        "/Users/user/git/collusion-with-co-presence/instrument/runs/main/populations/p01-S0-n16-burst/shared",
+        "--audit",
+        "/Users/user/git/collusion-with-co-presence/instrument/runs/main/p01-S0-n16-burst-a15/events.jsonl",
+        "--population-log",
+        "/Users/user/git/collusion-with-co-presence/instrument/runs/main/populations/p01-S0-n16-burst/population_events.jsonl",
+        "--agent",
+        "a15",
+        "--max-actions",
+        "24",
+        "--source-hash",
+        "985ea7cfec969c6254d577750336ed3184ad056505b17e047d23a60304f8c5f4"
+      ]
+    }
+  }
+}

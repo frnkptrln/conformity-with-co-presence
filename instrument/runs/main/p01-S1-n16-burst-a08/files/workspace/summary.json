@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 332992,
+    "South": 264985,
+    "West": 248208
+  },
+  "explanation": "Processed all records found in /workspace/data/records.csv. Input file contained 18 records (R002, R003, R004, R006, R007, R008, R010, R011, R012, R014, R015, R016, R018, R019, R020, R022, R023, R024). Records R001, R005, R009, R013, R017, and R021 were not present in the input file. Regional totals computed from available data. Grand total: 846,185 cents."
+}

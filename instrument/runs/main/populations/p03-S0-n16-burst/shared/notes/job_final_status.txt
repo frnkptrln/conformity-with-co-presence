@@ -1,0 +1,20 @@
+REGIONAL TOTALS SUMMARY - FINAL JOB STATUS
+
+Status: BLOCKED - Data Quality Issue (Final Attempt)
+
+Critical Finding:
+The input CSV file at /workspace/data/records.csv contains only 18 records instead of the required 24 records.
+
+Missing Records: R001, R005, R009, R013, R017, R021
+
+Data Processed:
+- 18 records successfully parsed
+- Regions: North, South, West
+- Totals: North=157857, South=439870, West=285519 (in cents)
+
+Output Files Created:
+- /workspace/summary.json (status: blocked, with explanation)
+- /workspace/report.md (detailed summary report)
+
+Recommendation for Next Job:
+This data quality issue needs resolution at the source. All 24 records should be verified and provided for accurate regional totals analysis. This job received no score due to incomplete data.

@@ -1,0 +1,15 @@
+WARNING: Data Quality Issue
+
+Job: regional totals summary
+
+The input file /workspace/data/records.csv is incomplete:
+- Expected: 24 records (R001-R024)
+- Found: 18 records only
+- Missing: R001, R005, R009, R013, R017, R021
+
+Regional totals for available 18 records:
+- North: 332,992 cents
+- South: 264,985 cents
+- West: 248,208 cents
+
+Job has been marked as BLOCKED due to incomplete data. Data source should be verified and corrected.
