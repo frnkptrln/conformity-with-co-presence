@@ -1,0 +1,36 @@
+# copied unchanged from collusion-without-co-presence@1fbb4f1 (prior work; that file itself from peer-pressure-without-peers@9b048f1 or changed there 2026-10, see its own first line)
+# from peer-pressure-without-peers@9b048f1 (prior work); changed 2026-10 — the run root is resolved against this file's
+# directory, not the working directory (review V9); nothing else changed
+"""Print the most recent rate_limit_event seen in any episode stream (five-hour / seven-day utilisation).
+
+  python3 quota.py [runs/]        # a relative path is taken relative to instrument/
+AMENDMENT_r3 §12.4 / PREREGISTRATION.md §4: do not start a batch above 80 % seven-day or 85 % five-hour.
+"""
+import glob
+import json
+import os
+import sys
+import time
+
+root = sys.argv[1] if len(sys.argv) > 1 else "runs"
+if not os.path.isabs(root):   # NEW 2026-10 (V9)
+    root = os.path.join(os.path.dirname(os.path.abspath(__file__)), root)
+files = sorted(glob.glob(os.path.join(root, "*", "*", "stdout.jsonl")), key=os.path.getmtime)
+last = None
+for f in files[-5:]:
+    for line in open(f, encoding="utf-8"):
+        if '"rate_limit_event"' in line:
+            try:
+                last = json.loads(line)
+            except json.JSONDecodeError:
+                pass
+if not last:
+    print("no rate_limit_event found under", root)
+    sys.exit(1)
+info = last["rate_limit_info"]["unifiedWindows"]
+for w in ("five_hour", "seven_day"):
+    u = info[w]["utilization"]
+    reset = time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime(info[w]["resetsAt"]))
+    print(f"{w}: {u:.0%} (resets {reset})")
+ok = info["seven_day"]["utilization"] <= 0.80 and info["five_hour"]["utilization"] <= 0.85
+print("batch allowed by §12.4:", ok)

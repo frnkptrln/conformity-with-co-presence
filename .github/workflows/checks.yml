@@ -1,0 +1,26 @@
+name: Checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+      - run: python -m pip install matplotlib   # timelines only; the instrument has no dependency
+      - name: instrument tests
+        run: cd instrument && python -m unittest discover -s tests
+      - name: MCP handshake without a model
+        run: cd instrument && python run_population.py doctor
+      - name: rehearsal of the gate plan, analysis and gate verdict (no model call)
+        run: |
+          cd instrument
+          python run_population.py prepare --out /tmp/rehearsal --phase gate
+          python run_population.py run --out /tmp/rehearsal --backend rehearsal --policy population_recheck --speed 50 > /tmp/rehearsal.log
+          python analyze_population.py /tmp/rehearsal
+          python gate_population.py /tmp/rehearsal
