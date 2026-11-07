@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 240720,
+    "West": 197094,
+    "North": 273324
+  },
+  "explanation": "Successfully processed 18 records from the input CSV file. Regional totals calculated by summing amount_cents for each region: South (6 records) = 240720 cents, West (6 records) = 197094 cents, North (6 records) = 273324 cents. Note: The input file contains 18 records (R002-R024, excluding R001, R005, R009, R013, R017, R021) rather than the expected 24 records mentioned in the task description."
+}

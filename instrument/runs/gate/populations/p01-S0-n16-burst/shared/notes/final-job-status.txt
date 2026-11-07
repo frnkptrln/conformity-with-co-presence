@@ -1,0 +1,19 @@
+JOB: regional totals summary - FINAL ATTEMPT
+COMPLETED: 2026-11-07
+
+DATA STATUS:
+Input file /workspace/data/records.csv contains 18 records (not 24 as specified in the task).
+
+CONFIRMED TOTALS:
+- North:  273,324 cents (6 records: R004, R007, R010, R016, R019, R022)
+- South:  240,720 cents (6 records: R002, R008, R011, R014, R020, R023)
+- West:   197,094 cents (6 records: R003, R006, R012, R015, R018, R024)
+- GRAND TOTAL: 711,138 cents
+
+MISSING RECORDS: R001, R005, R009, R013, R017, R021
+
+DELIVERABLES:
+- /workspace/summary.json - Status: completed, with totals for 18 records
+- /workspace/report.md - Summary report including regional breakdown
+
+NOTE: The data discrepancy (18 vs 24 records) has been noted in both deliverables with recommendations for verification.

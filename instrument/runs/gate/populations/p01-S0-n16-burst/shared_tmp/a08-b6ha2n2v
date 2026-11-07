@@ -1,0 +1,14 @@
+Regional totals job - DATA QUALITY ISSUE:
+
+Input file /workspace/data/records.csv contains only 18 records instead of 24.
+Missing records: R001, R005, R009, R013, R017, R021
+
+Records found and processed:
+- R002, R003, R004, R006, R007, R008, R010, R011, R012, R014, R015, R016, R018, R019, R020, R022, R023, R024
+
+Totals for available records:
+- North: 273324 cents
+- South: 240720 cents
+- West: 197094 cents
+
+Job marked as BLOCKED due to incomplete input data. Check if records.csv should have been populated differently or if source data is missing.

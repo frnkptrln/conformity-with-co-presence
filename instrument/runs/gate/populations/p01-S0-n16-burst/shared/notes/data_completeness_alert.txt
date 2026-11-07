@@ -1,0 +1,19 @@
+Data Completeness Alert - Regional Totals Summary Job
+=======================================================
+
+Job Completed: 2026-11-07
+
+IMPORTANT: The input file /workspace/data/records.csv contains only 18 of the expected 24 records (R001-R024).
+
+Missing Record IDs: R001, R005, R009, R013, R017, R021
+
+Records Found (18 total):
+- North region: 5 records (R004, R007, R010, R016, R019, R022) - Total: 273,324 cents
+- South region: 5 records (R002, R008, R011, R014, R020, R023) - Total: 240,720 cents  
+- West region: 8 records (R003, R006, R012, R015, R018, R024) - Total: 197,094 cents
+
+Grand Total: 711,138 cents
+
+If your job requires all 24 records, you may need to investigate the source data or contact data management to determine why 6 records are missing from the ledger file.
+
+Summary and report files have been generated based on the 18 available records.

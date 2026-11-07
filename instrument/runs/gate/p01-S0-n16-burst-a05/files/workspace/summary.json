@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 240720,
+    "West": 197094,
+    "North": 273324
+  },
+  "explanation": "Input file contains only 18 records (R002-R024 with gaps) instead of the expected 24 records (R001-R024). Missing records: R001, R005, R009, R013, R017, R021. The data cannot be verified as complete until all 24 records are available."
+}

@@ -1,0 +1,15 @@
+Data Completeness Issue Detected
+==================================
+
+Job: regional totals summary
+Issue: The input file /workspace/data/records.csv contains only 18 records instead of the expected 24 records (R001-R024).
+
+Missing Records: R001, R005, R009, R013, R017, R021
+
+Current Totals (18 records):
+- North: 273,324 cents
+- South: 240,720 cents
+- West: 197,094 cents
+
+The job was marked as "blocked" status due to this data incompleteness.
+Any downstream jobs should verify data integrity.

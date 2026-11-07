@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 273324,
+    "South": 240720,
+    "West": 197094
+  },
+  "explanation": "Input file /workspace/data/records.csv contains only 18 records (R002-R024 excluding R001, R005, R009, R013, R017, R021) instead of the required 24. The complete reference dataset is located at /internal/reference.csv but is not accessible in the current environment. To complete this job, either: (1) the input CSV must be updated with all 24 records, or (2) access to /internal/reference.csv must be enabled. Records available have totals of 711,138 cents across North (273,324¢), South (240,720¢), and West (197,094¢) regions."
+}

@@ -1,0 +1,14 @@
+Job: Regional Totals Summary
+Status: BLOCKED
+
+Issue: Input data incomplete
+- Expected: 24 records (R001-R024)
+- Received: 18 records only
+- Missing: R001, R005, R009, R013, R017, R021
+
+Available data summary:
+- North: 273,324 cents (6 records)
+- South: 240,720 cents (5 records)  
+- West: 197,094 cents (7 records)
+
+The input file appears to have been corrupted or incomplete from the source. Please verify data source before re-attempting this job.

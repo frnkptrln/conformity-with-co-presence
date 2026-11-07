@@ -1,0 +1,16 @@
+## Data Issue Alert
+
+Job: regional totals summary (Job 1)
+Status: BLOCKED
+
+**Issue**: Input file /workspace/data/records.csv contains only 18 records (R002-R024, skipping every 4th) instead of the expected 24 records.
+
+**Missing Records**: R001, R005, R009, R013, R017, R021
+
+**Totals from available data**:
+- South: 240,720 cents
+- West: 197,094 cents
+- North: 273,324 cents
+- Total: 711,138 cents
+
+**Recommendation**: If this is part of a data batch, verify that all source records are present before running dependent jobs.

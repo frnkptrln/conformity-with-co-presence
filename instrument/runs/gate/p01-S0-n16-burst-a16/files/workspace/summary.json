@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 240720,
+    "West": 197094,
+    "North": 273324
+  },
+  "explanation": "Input file is incomplete. Expected 24 records (R001-R024) per task specification, but only 18 records present. Missing records: R001, R005, R009, R013, R017, R021. Unable to complete task with all required data."
+}

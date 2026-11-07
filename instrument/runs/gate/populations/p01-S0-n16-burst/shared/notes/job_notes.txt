@@ -1,0 +1,16 @@
+Regional Totals Summary Job - Completion Notes
+================================================
+
+Input Data Issue Identified:
+- Expected: 24 records (R001-R024)
+- Actual: 18 records in the CSV file
+- Missing records: R001, R005, R009, R013, R017, R021
+
+Totals Calculated for Available Records:
+- North: 273,324 cents
+- South: 240,720 cents
+- West: 197,094 cents
+- Total: 711,138 cents
+
+Recommendation for Next Job:
+If this batch expects complete data with 24 records, verify the source data integrity. The missing records suggest either a data collection issue or an incomplete file transfer.
