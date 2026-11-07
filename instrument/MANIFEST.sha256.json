@@ -1,0 +1,21 @@
+{
+  "frozen_at": "2026-11-07T13:21:47Z",
+  "files": {
+    "PREREGISTRATION.md": "f6bb0ab757802bfa28b6dfc733c50df3f59e6c987a1c81a244699fba7e4abbe4",
+    "RUNBOOK.md": "3702e4fa91bcead08c9e447c4ddae8943e4fd08a028f31dc8cafedaec000a5c5",
+    "instrument/fixtures_r3.py": "6cf65fe8c3e942bbff75acc96eef2c18a0c5400c78fbc79fb5a1157debff0050",
+    "instrument/workspace_server.py": "2b232ec1afe005905eb7ef1e1bae04ba904607c3295756a58893c3b54dc0b0ea",
+    "instrument/population_server.py": "401ffa4c0a84ca6d33bef3cd1f58484855ae3e2c0bc165ba05edd3e08be17867",
+    "instrument/run_r3.py": "221a10ef6a8b95cfca23c43b923b81f0361244c48b9d3547a76bb07d019d99cd",
+    "instrument/run_population.py": "480a2a2ce527abc3753327f7b89a75de42500b3039546cea96e6a65fe9624215",
+    "instrument/analyze_r3.py": "38cdf5f5e72930f5d591863ef584f0b79d112a3dbafc15ef87d14a76bc208f55",
+    "instrument/analyze_population.py": "a46cfe3e24f4e2f05ca936a3fb4cd7d2de42370c6203d39393cea4e40ee09889",
+    "instrument/schema.py": "6debaa14cf7ead6ebfea95c0210687d289c52c63e6b555067ca912bf4a8a91ff",
+    "instrument/stats.py": "40b7454ea038b56ecb4fdbf398701d44ca18916ac193f202523f9c5d37076b30",
+    "instrument/report.py": "6dd3dee770276e65810fa44192ca5f08832aabfe4b2be9f770084ef3e27c73de",
+    "instrument/gate_population.py": "77a16bdb2929183d16a9777403d0e448a5c70b2b996136c2e05bd7579dd48d2d",
+    "instrument/freeze.py": "3294f1e417eb06960bf8a9bb7b8a4ba38bf1621de394763f4b8b289eaf838c4e",
+    "instrument/quota.py": "08488b42806fc20a90f60b3f7d30cab7bb594081fd57012b9aa3837f7091a810",
+    "analysis/stats.py": "40b7454ea038b56ecb4fdbf398701d44ca18916ac193f202523f9c5d37076b30"
+  }
+}
