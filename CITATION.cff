@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the report."
+title: "Conformity with co-presence: a rule violation spreads through a swarm of coding agents by what each agent happens to read"
+authors:
+  - family-names: Peterlein
+    given-names: Frank
+    orcid: "https://orcid.org/0009-0002-1886-1303"
+date-released: 2026-11-08
+repository-code: "https://github.com/frnkptrln/conformity-with-co-presence"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - multi-agent systems
+  - AI safety
+  - stigmergy
+  - conformity
+  - pre-registration
+preferred-citation:
+  type: report
+  title: "Conformity with co-presence: a rule violation spreads through a swarm of coding agents by what each agent happens to read"
+  authors:
+    - family-names: Peterlein
+      given-names: Frank
+      orcid: "https://orcid.org/0009-0002-1886-1303"
+  year: 2026
+  month: 11
+  institution:
+    name: "Apart Research, Swarm Alignment Hackathon"
+  url: "https://github.com/frnkptrln/conformity-with-co-presence/blob/main/report/report.pdf"
