@@ -27,7 +27,7 @@ const INK = "0B0B0B", INK2 = "52514E", RULE = "C3C2B7";
 function inline(text, base = {}) {
   const runs = [];
   // tokens: **bold**, *italic*, `code`, URLs
-  const re = /(\*\*[^*]+\*\*|\*[^*]+\*|`[^`]+`|https?:\/\/[^\s)\]]+)/g;
+  const re = /(\*\*[^*]+\*\*|\*[^*]+\*|`[^`]+`|https?:\/\/[^\s)\]]*[^\s)\].,;:])/g;   // a URL never ends in punctuation
   let last = 0, m;
   while ((m = re.exec(text)) !== null) {
     if (m.index > last) runs.push(new TextRun({ text: text.slice(last, m.index), font: FONT, size: base.size || BODY, ...base }));
